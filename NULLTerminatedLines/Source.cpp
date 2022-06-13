@@ -1,4 +1,4 @@
-//NULLTerminatedLines
+ï»¿//NULLTerminatedLines
 #include<iostream>
 #include<Windows.h>
 using namespace std;
@@ -19,17 +19,17 @@ void main()
 	//cout << str << endl;
 	const int SIZE = 256;
 	char str[SIZE] = {};
-	cout << "Ââåäèòå ñòðîêó: ";
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ ÑÑ‚Ñ€Ð¾ÐºÑƒ: ";
 	SetConsoleCP(1251);
 	//cin >> str;
 	cin.getline(str, SIZE);
 	SetConsoleCP(866);
 	cout << str << endl;
-	/*cout << "Ââåäåííàÿ ñòðîêà èìååò äëèíó: " << StringLenght(str) << endl;
+	/*cout << "Ð’Ð²ÐµÐ´ÐµÐ½Ð½Ð°Ñ ÑÑ‚Ñ€Ð¾ÐºÐ° Ð¸Ð¼ÐµÐµÑ‚ Ð´Ð»Ð¸Ð½Ñƒ: " << StringLenght(str) << endl;
 	to_upper(str);
-	cout << "Ñòðîêà â âåðõíåì ðåãèñòðå: " << str << endl;
+	cout << "Ð¡Ñ‚Ñ€Ð¾ÐºÐ° Ð² Ð²ÐµÑ€Ñ…Ð½ÐµÐ¼ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ðµ: " << str << endl;
 	to_lower(str);
-	cout << "Ñòðîêà â íèæíåì ðåãèñòðå: " << str << endl;*/
+	cout << "Ð¡Ñ‚Ñ€Ð¾ÐºÐ° Ð² Ð½Ð¸Ð¶Ð½ÐµÐ¼ Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ðµ: " << str << endl;*/
 	/*shrink(str);
 	cout << str << endl;
 	main();*/
@@ -58,7 +58,7 @@ void to_upper(char str[])
 	for (int i = 0; i < str[i]; i++)
 	{
 		str[i] >= 97 && str[i] <= 122 ? str[i] -= 32 : str[i];	
-		//str[i] >= 'à' && str[i] <= 'ÿ' ? str[i] -= 32 : str[i];
+		//str[i] >= 'Ð°' && str[i] <= 'Ñ' ? str[i] -= 32 : str[i];
 		//str[i] >= 97 && str[i] <= 122/* && str[i] >= 160 && str[i] <= 175 && str[i] >= 224 && str[i] <= 239*/ ? str[i] -= 32 : str[i];
 		//str[i] >= 160 && str[i] <= 175 && str[i] >= 224 && str[i] <= 239 ? str[i] -= 32 : str[i];
 	}
